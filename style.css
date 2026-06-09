@@ -9,4 +9,9 @@ body{
     margin:0;
 }
 
+button{
+background-color: darkgrey;
+color: forestgreen;
+ font-family: "Lobster Two", sans-serif;
 
+}
