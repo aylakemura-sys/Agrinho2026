@@ -1,0 +1,12 @@
+body{
+    background-color: darkseagreen;
+    color: black;
+    font-family: "Lobster Two", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin:0;
+}
+
+
