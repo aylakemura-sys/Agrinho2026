@@ -1,80 +1,129 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho 2026</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <title>A importância do Agro</title>
+
 </head>
+
 <body>
 
-    <!-- Video de fundo -->
-    <video autoplay muted loop class="video-fundo">
-        <source src="video.mp4" type="video/mp4">
-    </video>
+<main>
 
-    <!-- Primeira tela -->
-    <section id="home">
 
-        <h1>Agrinho 2026</h1>
+    <!-- Primeiro passo -->
 
-        <div class="galeria">
+    <div class="passo" id="passo-0">
 
-            <img src="img/fruta1.jpg" alt="Fruta">
-            <img src="img/fruta2.jpg" alt="Legumes">
-            <img src="img/fruta3.jpg" alt="Verduras">
-            <img src="img/fruta4.jpg" alt="Alimentos">
+        <h1>A importância do Agro</h1>
 
-        </div>
+        <p>
+            Você sabe como a agricultura está presente no nosso dia a dia?
+        </p>
 
-        <button class="btn-proximo" onclick="mostrarPagina()">
-            Saiba Mais
+        <button class="btn-proximo" data-proximo="1">
+            Sim, quero aprender
         </button>
 
-    </section>
+        <button class="btn-proximo" data-proximo="2">
+            Quero descobrir
+        </button>
 
-    <!-- Segunda tela -->
-    <section id="segundaPagina" class="escondida">
+    </div>
 
-        <div class="conteudo">
 
-            <h2>A importancia do agro</h2>
 
-            <p>
-                agroooooooooo 2026
-            </p>
+    <!-- Segundo passo -->
 
-            <p>
-                uma importancia do agro
+    <div class="passo" id="passo-1">
 
-            <h3>Dicas para um</h3>
+        <p>
+            O agro é responsável pela produção dos alimentos que chegam
+            até nossas mesas, como frutas, verduras, grãos e carnes.
+        </p>
 
-            <ul>
+        <button class="btn-proximo" data-proximo="3">
+            Continuar
+        </button>
 
-                <li>Consumir frutas diariamente.</li>
+    </div>
 
-                <li>Beber bastante agua.</li>
 
-                <li>Evitar excesso de refrigerantes.</li>
 
-                <li>Comer verduras e legumes.</li>
+    <!-- Terceiro passo -->
 
-                <li>Diminuir alimentos industrializados.</li>
+    <div class="passo" id="passo-2">
 
-            </ul>
+        <p>
+            Além de produzir alimentos, o agronegócio também gera empregos
+            e movimenta a economia do país.
+        </p>
 
-            <h3>Conclusao</h3>
+        <button class="btn-proximo" data-proximo="3">
+            Quero saber mais
+        </button>
 
-            <p>
-              importancia do agro
-            </p>
+    </div>
 
-        </div>
 
-    </section>
 
-    <script src="script.js"></script>
+    <!-- Quarto passo -->
+
+    <div class="passo" id="passo-3">
+
+        <h2>Por que o Agro é importante?</h2>
+
+        <p>
+            A agricultura ajuda a garantir a alimentação da população,
+            utilizando tecnologias para produzir mais e cuidar dos recursos
+            naturais.
+        </p>
+
+        <p>
+            O campo e a cidade estão conectados, pois muitos produtos que
+            usamos diariamente vêm da produção rural.
+        </p>
+
+
+        <button class="btn-proximo" data-proximo="4">
+            Finalizar
+        </button>
+
+    </div>
+
+
+
+    <!-- Final -->
+
+    <div class="passo" id="passo-4">
+
+        <h2>Conclusão</h2>
+
+        <p>
+            Valorizar o agro é reconhecer a importância dos agricultores,
+            da tecnologia e do trabalho realizado no campo para a sociedade.
+        </p>
+
+    </div>
+
+
+
+</main>
+
+
+<script src="script.js"></script>
+
 
 </body>
+
 </html>
