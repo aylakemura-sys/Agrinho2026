@@ -1,5 +1,5 @@
 body{
-    background-color: darkseagreen;
+    background-color: rgb(176, 214, 176);
     color: black;
      font-family: "Lobster Two", sans-serif;
     display: flex;
@@ -10,7 +10,7 @@ body{
 }
 
 button{
-background-color: darkgrey;
+background-color: rgb(144, 196, 153);
 color: forestgreen;
   font-family: "Lobster Two", sans-serif;
 
