@@ -1,14 +1,25 @@
-// Função que mostra a segunda página
 
-function mostrarPagina(){
+const botoes = document.querySelectorAll(".btn-proximo");
 
-    // Esconde a primeira tela
-    document.getElementById("home").style.display = "none";
 
-    // Mostra a segunda tela
-    document.getElementById("segundaPagina").classList.remove("escondida");
 
-    // Leva o usuário para o início da página
-    window.scrollTo(0,0);
+botoes.forEach(botao => {
 
-}
+    botao.addEventListener("click", function(){
+
+        
+        document.querySelectorAll(".passo").forEach(passo => {
+            passo.style.display = "none";
+        });
+
+
+        /
+        const proximo = botao.getAttribute("data-proximo");
+
+
+        
+        document.getElementById("passo-" + proximo).style.display = "block";
+
+    });
+
+});
