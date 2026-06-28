@@ -1,34 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Agrinho 2026</title>
-   </head>
-   <body>
-   <main>
-    <div class="passo" id="passo-0">
-      <p>oioioi tudo bem?</p>
-      <button class="btn-proximo" data-proximo="1">sim. Quero aprender a fazer bolo </button>
-      <button class="btn-proximo" data-proximo="2">não. Não quero aprender</button>
 
-     </div>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-     <div class="passo" id="passo-0">
-      <p>quer aprender a receita?</p>
-      <button class="btn-proximo" data-proximo="3">sim, proximo</button>
-      <button class="btn-proximo" data-proximo="4">não. Voltar</button>
+    <!-- Video de fundo -->
+    <video autoplay muted loop class="video-fundo">
+        <source src="video.mp4" type="video/mp4">
+    </video>
 
-     </div>
+    <!-- Primeira tela -->
+    <section id="home">
 
+        <h1>Agrinho 2026</h1>
 
-   </main> 
+        <div class="galeria">
 
+            <img src="img/fruta1.jpg" alt="Fruta">
+            <img src="img/fruta2.jpg" alt="Legumes">
+            <img src="img/fruta3.jpg" alt="Verduras">
+            <img src="img/fruta4.jpg" alt="Alimentos">
 
+        </div>
+
+        <button class="btn-proximo" onclick="mostrarPagina()">
+            Saiba Mais
+        </button>
+
+    </section>
+
+    <!-- Segunda tela -->
+    <section id="segundaPagina" class="escondida">
+
+        <div class="conteudo">
+
+            <h2>A importancia do agro</h2>
+
+            <p>
+                agroooooooooo 2026
+            </p>
+
+            <p>
+                uma importancia do agro
+
+            <h3>Dicas para um</h3>
+
+            <ul>
+
+                <li>Consumir frutas diariamente.</li>
+
+                <li>Beber bastante agua.</li>
+
+                <li>Evitar excesso de refrigerantes.</li>
+
+                <li>Comer verduras e legumes.</li>
+
+                <li>Diminuir alimentos industrializados.</li>
+
+            </ul>
+
+            <h3>Conclusao</h3>
+
+            <p>
+              importancia do agro
+            </p>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
