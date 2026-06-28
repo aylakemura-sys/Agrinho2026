@@ -13,7 +13,7 @@ botoes.forEach(botao => {
         });
 
 
-        /
+    
         const proximo = botao.getAttribute("data-proximo");
 
 
