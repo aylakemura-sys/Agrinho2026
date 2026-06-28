@@ -14,4 +14,21 @@ background-color: rgb(144, 196, 153);
 color: forestgreen;
    font-family: "Inter", sans-serif;
 
+buttton{
+   .btn-proximo{
+    background:#4CAF50;
+    color:white;
+    border:none;
+    padding:18px 35px;
+    font-size:20px;
+    border-radius:10px;
+    cursor:pointer;
 }
+
+.btn-proximo:hover{
+    background:#388E3C;
+}
+
+}
+}
+
