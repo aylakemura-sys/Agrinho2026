@@ -21,6 +21,6 @@ button {
     display: none;
 }
 .passo.ativo{
-    dsiplay:
+    dsiplay:block;
 }
 
