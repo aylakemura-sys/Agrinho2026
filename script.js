@@ -11,7 +11,6 @@ avanca.forEach(button => {
 });
 {const botaoTema = document.getElementById('alternar-tema');}
 
-
-botaoTema.addEventListener('click', function() {
-    document.body.classList.toggle('dark-mode');
+toggleThemeBtn.addEventListener('click', () => {
+ document.body.classList.toggle('dark-mode');
 });
