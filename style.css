@@ -20,15 +20,6 @@ button {
 .passo {
     display: none;
 }
-.passo.ativo{
-    dsiplay:block;
-}
-
-
-
-.passo {
-    display: none;
-}
 
 .passo.ativo {
     display: block;
