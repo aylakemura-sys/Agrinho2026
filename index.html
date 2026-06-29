@@ -14,6 +14,16 @@
 
 
 <body>
+  <div>
+<section id="secao-boas-vindas" class="cartao">
+            <form id="formulario-usuario" onsubmit="event.preventDefault();">
+                <label for="nome-usuario" class="rotulo-formulario">Qual seu nome?</label>
+                <div class="grupo-entrada">
+                    <input type="text" id="nome-usuario" placeholder="Digite seu nome aqui..." required>
+                    <button type="button" id="botao-enviar-nome" class="btn-primario">Enviar</button>
+                </div>
+
+
  <button id="alternar-tema" style="position: fixed; top: 20px; right: 20px; z-index: 1000;">Alternar Modo</button>
  <main>
   <div class="passo ativo" id="passo-0">
@@ -23,13 +33,6 @@
    <button class="btn-proximo" data-proximo="1">Quero saber mais sobre.</button>
   </div>
 
-  <section id="secao-boas-vindas" class="cartao">
-            <form id="formulario-usuario" onsubmit="event.preventDefault();">
-                <label for="nome-usuario" class="rotulo-formulario">Qual seu nome?</label>
-                <div class="grupo-entrada">
-                    <input type="text" id="nome-usuario" placeholder="Digite seu nome aqui..." required>
-                    <button type="button" id="botao-enviar-nome" class="btn-primario">Enviar</button>
-                </div>
 
 
   <div class="passo" id="passo-1">
