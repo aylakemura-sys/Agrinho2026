@@ -31,7 +31,6 @@ h2 {
     text-align: center;
 }
 
-
 body.dark-mode {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Teste.jpg");
     color: #e0ebe0;
