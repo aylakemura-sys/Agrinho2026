@@ -33,7 +33,7 @@ h2 {
 
 
 body.dark-mode {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('trabalhador no campo.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("trabalhador no campo.png");
     color: #e0ebe0;
 }
 
