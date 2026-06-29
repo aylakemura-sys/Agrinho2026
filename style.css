@@ -10,18 +10,22 @@ body{
     margin:0;
 
 }
-
-button {
-    background-color: #2E7D32;
-    color:aliceblue
-    font-family: "Roboto Mono", monospace;
-  }
-
-.passo {
-    display: none;
+.btn-proximo{
+    background:#4CAF50;
+    color:white;
+    border:none;
+    padding:18px 35px;
+    font-size:20px;
+    border-radius:10px;
+    cursor:pointer;
 }
 
-.passo.ativo {
-    display: block;
+.btn-proximo:hover{
+    background:#388E3C;
 }
 
+
+
+.escondida{
+    display:none;
+}
