@@ -16,13 +16,6 @@ button {
     color:aliceblue
     font-family: "Roboto Mono", monospace;
   }
-.passo {
-    display: none;
-}
-
-.passo.ativo {
-    display: block;
-}
 
 .passo {
     display: none;
