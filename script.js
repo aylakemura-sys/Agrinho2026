@@ -9,8 +9,8 @@ avanca.forEach(button => {
         document.getElementById(proximoPasso).classList.add('ativo');
     });
 });
+{const botaoTema = document.getElementById('alternar-tema');}
 
-const botaoTema = document.getElementById('alternar-tema');
 
 botaoTema.addEventListener('click', function() {
     document.body.classList.toggle('dark-mode');
