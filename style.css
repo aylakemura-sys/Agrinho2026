@@ -10,22 +10,43 @@ body{
     margin:0;
 
 }
-.btn-proximo{
-    background:#4CAF50;
-    color:white;
-    border:none;
-    padding:18px 35px;
-    font-size:20px;
-    border-radius:10px;
-    cursor:pointer;
+button {  background-color: #64A712;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-.btn-proximo:hover{
-    background:#388E3C;
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+h2 {
+    text-align: center;\
 }
 
 
+body.dark-mode {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('trabalhador no campo.png');
+    color: #e0ebe0;
+}
 
-.escondida{
-    display:none;
+body.dark-mode main {
+    background-color: rgba(20, 35, 22, 0.95);
+}
+
+body.dark-mode button {
+    background-color: #83d41a;
+    color: #111;
+}
+
+body.dark-mode #alternar-tema {
+    background-color: #83d41a;
+    color: #111;
 }
