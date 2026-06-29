@@ -29,7 +29,7 @@ btnSubmitName.addEventListener('click', () => {
     // Valida se o campo não está vazio
     if (userName !== "") {
         // Altera o texto da mensagem de forma funcional e personalizada
-        welcomeMessage.innerHTML = Olá <strong>${userName}</strong>, fico feliz em te ter aqui. Agora vamos aprender sobre a tecnologia no agro!;
+        welcomeMessage.innerHTML = Olá <strong>${userName}</strong>, seja bem (a), espero que você goste do site!;
         
         // Remove a classe para mostrar a mensagem e o próximo botão
         dynamicResponseDiv.classList.remove('elemento-oculto');
