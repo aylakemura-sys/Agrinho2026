@@ -14,8 +14,8 @@ body{
 button {
     background-color: #2E7D32;
     color:aliceblue
-   font-family: "Roboto Mono", monospace;
-}
+   font-family: "Inter", sans-serif;
+  }
 
 .passo {
     display: none;
