@@ -2,7 +2,7 @@
 body{
     background-color: rgb(176, 214, 176);
     color: black;
-    font-family: "Inter", sans-serif;
+   font-family: "Roboto Mono", monospace;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ body{
 button {
     background-color: #2E7D32;
     color:aliceblue
-   font-family: "Inter",sans-serif;
+    font-family: "Roboto Mono", monospace;
   }
 
 .passo {
