@@ -49,3 +49,12 @@ body.dark-mode #alternar-tema {
     background-color: #83d41a;
     color: #111;
 }
+
+main {
+    text-align: center;
+    max-width:90%;
+}
+
+Img {
+max-width: 100%;
+}
