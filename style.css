@@ -37,16 +37,16 @@ body.dark-mode {
 }
 
 body.dark-mode main {
-    background-color: rgba(20, 35, 22, 0.95);
+    background-color: rgba(59, 71, 60, 0.95);
 }
 
 body.dark-mode button {
-    background-color: #83d41a;
+    background-color: #8ead65;
     color: #111;
 }
 
 body.dark-mode #alternar-tema {
-    background-color: #83d41a;
+    background-color: #859c66;
     color: #111;
 }
 
@@ -56,5 +56,5 @@ main {
 }
 
 Img {
-max-width: 100%;
+max-width: 80%;
 }
