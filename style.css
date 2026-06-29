@@ -23,3 +23,17 @@ button {
 .passo.ativo{
     dsiplay:block;
 }
+
+
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+}
