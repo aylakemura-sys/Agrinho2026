@@ -60,8 +60,8 @@ max-width: 80%;
 }
 
 .imagem-primeira {
-    width: 10%;      /* diminui a largura */
+    width: 20%;      /* diminui a largura */
     min-height: 100vh;      /* mantém a proporção */
     display: block;
-    margin: 100px auto 0; /* centraliza */
+    margin: 150px auto 0; /* centraliza */
 }
