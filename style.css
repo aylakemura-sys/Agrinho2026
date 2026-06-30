@@ -1,7 +1,7 @@
 
 body{
     background-color: rgb(5, 250, 5);  /* cor do site */
-    color: rgba(93, 146, 130, 0.884);
+    color: rgba(212, 233, 218, 0.884);
    font-family: "Roboto Mono", monospace;
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@ body{
 
 }
 button {  background-color: #97ca95; /* cor do botao */
-    color: rgb(61, 122, 61);
+    color: rgb(209, 228, 209);
     font-family: "Rubik", sans-serif;
     padding: 10px 20px;
     border: none;
