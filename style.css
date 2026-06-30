@@ -56,6 +56,21 @@ main {
 }
 
 Img {
-max-width: 10%;
+max-width: 80%;
 }
 
+.alinhamento-lista {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.alinhamento-lista img {
+    width: 350px;
+    height: 230px;         
+    object-fit: cover;     
+    object-position: center; 
+    border-radius: 10px;
+    flex-shrink: 0;
+}
