@@ -63,5 +63,5 @@ max-width: 80%;
     width: 20%;      /* diminui a largura */
     height: auto;      /* mantém a proporção */
     display: block;
-    margin: 100px auto; /* centraliza */
+    margin: 100px auto 0; /* centraliza */
 }
