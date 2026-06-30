@@ -32,7 +32,7 @@ h2 {
 }
 
 body.dark-mode {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("agricultor.png");  /* modo escuro */
+    background-image: linear-gradient(rgba(124, 167, 141, 0.973), rgba(0, 0, 0, 0.6)), url("agricultor.png");  /* modo escuro */
     color: #e0ebe0;
 }
 
@@ -46,7 +46,7 @@ body.dark-mode button {
 }
 
 body.dark-mode #alternar-tema {
-    background-color: #859c66;
+    background-color: #8ca173;
     color: #111;
 }
 
