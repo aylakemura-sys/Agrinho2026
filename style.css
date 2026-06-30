@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(176, 214, 176);
+    background-color: rgb(176, 214, 176);  /* cor do site */
     color: black;
    font-family: "Roboto Mono", monospace;
     display: flex;
@@ -10,7 +10,7 @@ body{
     margin:0;
 
 }
-button {  background-color: #64A712;
+button {  background-color: #64A712; /* cor do botao */
     color: white;
     font-family: "Rubik", sans-serif;
     padding: 10px 20px;
@@ -32,7 +32,7 @@ h2 {
 }
 
 body.dark-mode {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Teste.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("agricultor.png");  /* modo escuro */
     color: #e0ebe0;
 }
 
