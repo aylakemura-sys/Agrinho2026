@@ -59,18 +59,9 @@ Img {
 max-width: 80%;
 }
 
-.alinhamento-lista {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 20px;
-}
-
-.alinhamento-lista img {
-    width: 350px;
-    height: 230px;         
-    object-fit: cover;     
-    object-position: center; 
-    border-radius: 10px;
-    flex-shrink: 0;
+.imagem-primeira {
+    width: 450px;      /* diminui a largura */
+    height: auto;      /* mantém a proporção */
+    display: block;
+    margin: 20px auto; /* centraliza */
 }
