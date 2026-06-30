@@ -1,7 +1,7 @@
 
 body{
     background-color: rgb(176, 214, 176);  /* cor do site */
-    color: rgb(113, 158, 112);
+    color: rgba(83, 194, 81, 0.384);
    font-family: "Roboto Mono", monospace;
     display: flex;
     justify-content: center;
