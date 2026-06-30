@@ -63,5 +63,5 @@ max-width: 80%;
     width: 20%;      /* diminui a largura */
     min-height: none;      /* mantém a proporção */
     display: block;
-    margin: 180px ; /* centraliza */
+    margin: 150px ; /* centraliza */
 }
